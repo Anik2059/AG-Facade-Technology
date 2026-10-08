@@ -58,7 +58,7 @@ module.exports = function createRenderer(store, siteDir, siteUrl) {
 <div class="pd-actions"><a class="cta-btn" href="../contact.html?product=${encodeURIComponent(p.id)}"><span data-i18n="btn.requestquote">Request a Quote</span> <span>→</span></a><a class="view-all-btn" href="../catalogue.html"><span data-i18n="btn.seecat">See Full Catalogue</span> <span>→</span></a></div></div></div>
 ${rel.length ? `<div class="section-head" style="margin-top:64px"><h2><span data-i18n="prod.related">More in this category</span></h2></div><div class="product-grid">${rel.map(q => card(q, '../')).join('')}</div>` : ''}</div></section></main>`;
     return shell
-      .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(p.title.en)} | AG Facade Technology</title>`)
+      .replace(/<title>[\s\S]*?<\/title>/, `<title>AG Facade Technology | ${esc(p.title.en)}</title>`)
       .replace(/(<meta name="description" content=")[^"]*(")/, (m, a, b) => a + esc(desc) + b)
       .replace(/(<link rel="canonical" href=")[^"]*(")/, (m, a, b) => a + url + b)
       .replace(/(<meta property="og:title" content=")[^"]*(")/, (m, a, b) => a + esc(p.title.en) + ' | AG Facade Technology' + b)
