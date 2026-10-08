@@ -16,9 +16,12 @@ try {
 const PORT = process.env.PORT || 3000;
 const NOTIFY = process.env.NOTIFY_EMAIL || 'agfacadetechnology06.bd@gmail.com';
 const SITE_DIR = path.join(__dirname, '..', 'website');
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.join(__dirname, 'data'); // set DATA_DIR to a persistent disk on cloud hosting
 const LOG = path.join(DATA_DIR, 'inquiries.jsonl');
 fs.mkdirSync(DATA_DIR, { recursive: true });
+const SITE_URL = (process.env.SITE_URL || 'https://www.agfacadetechnology.com').replace(/\/$/, '');
+const store = require('./lib/store')(DATA_DIR, path.join(__dirname, 'seed'));
+const render = require('./lib/render')(store, SITE_DIR, SITE_URL);
 
 const mailer = process.env.SMTP_USER && process.env.SMTP_PASS
   ? nodemailer.createTransport({
@@ -67,6 +70,12 @@ function limited(ip) {
 
 const app = express();
 app.set('trust proxy', 1);
+
+// Admin panel (login, content management, inquiries). Mounted before the small public JSON parser.
+require('./lib/admin')(app, {
+  store, render, siteUrl: SITE_URL,
+  status: () => ({ whatsapp: WA_PHONES.length > 0 && WA_PHONES.length === WA_KEYS.length, email: !!mailer, notifyEmail: NOTIFY }),
+});
 app.use(express.json({ limit: '20kb' }));
 
 app.post('/api/inquiry', async (req, res) => {
@@ -91,7 +100,7 @@ app.post('/api/inquiry', async (req, res) => {
   const ref = 'AG-' + now.toISOString().slice(0, 10).replace(/-/g, '') + '-' + Math.random().toString(36).slice(2, 6).toUpperCase();
   const record = { ref, receivedAt: now.toISOString(), ip: req.ip, ...d };
 
-  try { fs.appendFileSync(LOG, JSON.stringify(record) + '\n'); }
+  try { store.addInquiry(record); }
   catch (e) { console.error('[save] failed', e); return res.status(500).json({ ok: false, error: 'save_failed' }); }
 
   if (mailer) {
@@ -120,12 +129,26 @@ app.post('/api/inquiry', async (req, res) => {
 app.get('/admin/inquiries', (req, res) => {
   if (!process.env.ADMIN_KEY || req.query.key !== process.env.ADMIN_KEY) return res.status(401).send('Unauthorized');
   let rows = [];
-  try { rows = fs.readFileSync(LOG, 'utf8').split('\n').filter(Boolean).map(JSON.parse).reverse(); } catch (e) {}
+  try { rows = store.get('inquiries').slice().reverse(); } catch (e) {}
   res.send(`<meta charset="utf-8"><title>Inquiries</title><body style="font-family:Arial;padding:24px"><h2>Inquiries (${rows.length})</h2>` +
     `<table border="1" cellpadding="8" style="border-collapse:collapse;font-size:14px"><tr><th>Ref</th><th>Date</th><th>Name</th><th>Phone</th><th>Email</th><th>Service</th><th>Product</th><th>Location</th><th>Message</th></tr>` +
     rows.map(r => `<tr><td>${esc(r.ref)}</td><td>${esc(r.receivedAt.slice(0, 16).replace('T', ' '))}</td><td>${esc(r.name)}</td><td>${esc(r.phone)}</td><td>${esc(r.email)}</td><td>${esc(r.service)}</td><td>${esc(r.product)}</td><td>${esc(r.location)}</td><td>${esc(r.message)}</td></tr>`).join('') + '</table>');
 });
 
+// Public pages: the static HTML files are templates; products, projects and logos come from the admin data.
+const fresh = res => res.set('Cache-Control', 'no-cache');
+app.use('/uploads', express.static(store.uploadDir, { maxAge: '30d' }));
+app.get(/^\/(?:(index|products|projects|about|contact)(?:\.html)?)?$/, (req, res) => { fresh(res); res.type('html').send(render.page((req.params[0] || 'index') + '.html')); });
+app.get('/products/:id.html', (req, res) => {
+  const h = render.productPage(req.params.id); fresh(res);
+  if (!h) return res.status(404).type('html').send(render.page('index.html'));
+  res.type('html').send(h);
+});
+app.get('/i18n.js', (req, res) => { fresh(res); res.type('js').send(render.i18n()); });
+app.get('/sitemap.xml', (req, res) => { fresh(res); res.type('xml').send(render.sitemap()); });
 app.use(express.static(SITE_DIR, { extensions: ['html'] }));
 app.use((req, res) => res.status(404).sendFile(path.join(SITE_DIR, 'index.html')));
-app.listen(PORT, () => console.log(`AG Facade site running at http://localhost:${PORT}`));
+app.listen(PORT, () => {
+  console.log(`AG Facade site running at http://localhost:${PORT}`);
+  console.log(process.env.ADMIN_PASSWORD || fs.existsSync(path.join(DATA_DIR, 'admin.json')) ? `Admin panel: http://localhost:${PORT}/admin/` : '[admin] Set ADMIN_PASSWORD in .env to enable the admin panel login.');
+});

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "abc-real-estate",
+  "order": 1,
+  "name": "Abc Real Estate",
+  "image": "images/clients/01-abc-real-estate.png"
+ },
+ {
+  "id": "dutch-bangla-bank",
+  "order": 2,
+  "name": "Dutch Bangla Bank",
+  "image": "images/clients/02-dutch-bangla-bank.png"
+ },
+ {
+  "id": "square-group",
+  "order": 3,
+  "name": "Square Group",
+  "image": "images/clients/03-square-group.png"
+ },
+ {
+  "id": "acme-laboratories",
+  "order": 4,
+  "name": "Acme Laboratories",
+  "image": "images/clients/04-acme-laboratories.png"
+ },
+ {
+  "id": "sm-group",
+  "order": 5,
+  "name": "Sm Group",
+  "image": "images/clients/05-sm-group.png"
+ },
+ {
+  "id": "prity-group",
+  "order": 6,
+  "name": "Prity Group",
+  "image": "images/clients/06-prity-group.png"
+ },
+ {
+  "id": "asset-developments",
+  "order": 7,
+  "name": "Asset Developments",
+  "image": "images/clients/07-asset-developments.png"
+ },
+ {
+  "id": "bti",
+  "order": 8,
+  "name": "Bti",
+  "image": "images/clients/08-bti.png"
+ },
+ {
+  "id": "rancon-development",
+  "order": 9,
+  "name": "Rancon Development",
+  "image": "images/clients/09-rancon-development.png"
+ }
+]

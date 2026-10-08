@@ -1,0 +1,74 @@
+[
+ {
+  "id": "galuminium",
+  "order": 1,
+  "name": "Galuminium",
+  "image": "images/partners/01-galuminium.png"
+ },
+ {
+  "id": "xingfa-aluminium",
+  "order": 2,
+  "name": "Xingfa Aluminium",
+  "image": "images/partners/02-xingfa-aluminium.png"
+ },
+ {
+  "id": "bai-yun",
+  "order": 3,
+  "name": "Bai Yun",
+  "image": "images/partners/03-bai-yun.png"
+ },
+ {
+  "id": "saint-gobain",
+  "order": 4,
+  "name": "Saint Gobain",
+  "image": "images/partners/04-saint-gobain.png"
+ },
+ {
+  "id": "extension-profile-aluminium",
+  "order": 5,
+  "name": "Extension Profile Aluminium",
+  "image": "images/partners/05-extension-profile-aluminium.png"
+ },
+ {
+  "id": "d3h",
+  "order": 6,
+  "name": "D3H",
+  "image": "images/partners/06-d3h.png"
+ },
+ {
+  "id": "siegenia",
+  "order": 7,
+  "name": "Siegenia",
+  "image": "images/partners/07-siegenia.png"
+ },
+ {
+  "id": "kin-long",
+  "order": 8,
+  "name": "Kin Long",
+  "image": "images/partners/08-kin-long.png"
+ },
+ {
+  "id": "syp-group",
+  "order": 9,
+  "name": "Syp Group",
+  "image": "images/partners/09-syp-group.png"
+ },
+ {
+  "id": "hopo",
+  "order": 10,
+  "name": "Hopo",
+  "image": "images/partners/10-hopo.png"
+ },
+ {
+  "id": "xingyi-glass",
+  "order": 11,
+  "name": "Xingyi Glass",
+  "image": "images/partners/11-xingyi-glass.png"
+ },
+ {
+  "id": "opk",
+  "order": 12,
+  "name": "Opk",
+  "image": "images/partners/12-opk.png"
+ }
+]

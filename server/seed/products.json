@@ -1,0 +1,923 @@
+[
+ {
+  "id": "thermal-sh",
+  "cat": "thermal",
+  "order": 1,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/thermal-sh.jpg",
+  "title": {
+   "en": "Single Hung (SH)",
+   "bn": "সিঙ্গেল হাং (SH)"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Classic vertical-sash profile with a fixed upper pane and operable lower sash.",
+   "bn": "ফিক্সড উপরের প্যান ও খোলা যায় এমন নিচের স্যাশসহ ক্লাসিক উল্লম্ব-স্যাশ প্রোফাইল।"
+  },
+  "detail": {
+   "en": "The Single Hung window is a timeless vertical-sash design: the upper pane stays fixed while the lower sash slides open for ventilation. Built on the Double Prairie Grids profile (code E-Dp 22), it suits traditional and transitional facades where a classic window line is wanted without sacrificing thermal performance.",
+   "bn": "সিঙ্গেল হাং উইন্ডো চিরায়ত উল্লম্ব-স্যাশ নকশা: উপরের প্যান স্থির থাকে আর নিচের স্যাশ বাতাসের জন্য ওপরে সরে যায়। ডাবল প্রেইরি গ্রিডস প্রোফাইলে (কোড E-Dp 22) তৈরি এটি তাপীয় কার্যক্ষমতা না কমিয়ে ক্লাসিক জানালার রেখা চাওয়া ঐতিহ্যবাহী ও ট্রানজিশনাল ফ্যাসাদে মানানসই।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 22",
+    "Double glazing",
+    "Vertical sash"
+   ],
+   "bn": [
+    "E-Dp 22",
+    "ডাবল গ্লাজিং",
+    "উল্লম্ব স্যাশ"
+   ]
+  }
+ },
+ {
+  "id": "thermal-xo",
+  "cat": "thermal",
+  "order": 2,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-xo.jpg",
+  "title": {
+   "en": "XO Window",
+   "bn": "XO উইন্ডো"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Fixed-and-operable sash pairing for balanced ventilation and natural light.",
+   "bn": "ভারসাম্যপূর্ণ বাতাস ও প্রাকৃতিক আলোর জন্য ফিক্সড ও খোলার উপযোগী স্যাশের জোড়া।"
+  },
+  "detail": {
+   "en": "The XO configuration pairs one fixed pane with one operable sash side by side, giving balanced natural light with controlled ventilation. Finished on the Double Prairie Grids profile (E-Dp 22), it works well for bedrooms and living spaces needing partial opening without a full sliding mechanism.",
+   "bn": "XO কনফিগারেশনে একটি ফিক্সড প্যান ও একটি খোলার উপযোগী স্যাশ পাশাপাশি থাকে, যা নিয়ন্ত্রিত বাতাসের সাথে ভারসাম্যপূর্ণ প্রাকৃতিক আলো দেয়। ডাবল প্রেইরি গ্রিডস প্রোফাইলে (E-Dp 22) তৈরি এটি পূর্ণ স্লাইডিং ব্যবস্থা ছাড়া আংশিক খোলা দরকার এমন শয়নকক্ষ ও বসার ঘরে ভালো কাজ করে।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 22",
+    "Two-track",
+    "Double glazing"
+   ],
+   "bn": [
+    "E-Dp 22",
+    "টু-ট্র্যাক",
+    "ডাবল গ্লাজিং"
+   ]
+  }
+ },
+ {
+  "id": "thermal-xox",
+  "cat": "thermal",
+  "order": 3,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-xox.jpg",
+  "title": {
+   "en": "XOX Window",
+   "bn": "XOX উইন্ডো"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Wide three-panel configuration with a central operable sash.",
+   "bn": "মাঝখানে খোলার উপযোগী স্যাশসহ চওড়া তিন-প্যানেল বিন্যাস।"
+  },
+  "detail": {
+   "en": "XOX windows use a wide three-panel layout, fixed, operable, fixed, built on profile E-Dp 27. The extra width suits larger openings where more daylight is wanted while keeping a single, central ventilation point.",
+   "bn": "XOX উইন্ডো চওড়া তিন-প্যানেল বিন্যাস ব্যবহার করে (ফিক্সড, খোলার উপযোগী, ফিক্সড), যা E-Dp 27 প্রোফাইলে তৈরি। বাড়তি চওড়া অংশ বড় খোলায় বেশি দিনের আলো আনে এবং বাতাস চলাচলের জন্য একটিমাত্র কেন্দ্রীয় পয়েন্ট রাখে।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 27",
+    "Multi-pane",
+    "Wide-format"
+   ],
+   "bn": [
+    "E-Dp 27",
+    "মাল্টি-প্যান",
+    "চওড়া ফরম্যাট"
+   ]
+  }
+ },
+ {
+  "id": "thermal-oxxo",
+  "cat": "thermal",
+  "order": 4,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-oxxo.jpg",
+  "title": {
+   "en": "OXXO Window",
+   "bn": "OXXO উইন্ডো"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Four-panel layout maximising glazed area for larger openings.",
+   "bn": "বড় খোলার জন্য সর্বোচ্চ গ্লাস এলাকাযুক্ত চার-প্যানেল বিন্যাস।"
+  },
+  "detail": {
+   "en": "The OXXO layout extends to four panels on profile E-Dp 32, maximising glazed area for expansive openings such as feature walls or large living-room windows, while keeping two independently operable sashes for airflow control.",
+   "bn": "OXXO বিন্যাস E-Dp 32 প্রোফাইলে চার প্যানেল পর্যন্ত বিস্তৃত, যা ফিচার ওয়াল বা বড় লিভিং-রুম জানালার মতো প্রশস্ত খোলায় গ্লাস এলাকা সর্বোচ্চ করে। একই সাথে বাতাস নিয়ন্ত্রণের জন্য দুটি স্বতন্ত্রভাবে খোলার উপযোগী স্যাশ থাকে।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 32",
+    "Wide-format",
+    "4-panel"
+   ],
+   "bn": [
+    "E-Dp 32",
+    "চওড়া ফরম্যাট",
+    "৪-প্যানেল"
+   ]
+  }
+ },
+ {
+  "id": "thermal-pw",
+  "cat": "thermal",
+  "order": 5,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-pw.jpg",
+  "title": {
+   "en": "Picture Window (PW)",
+   "bn": "পিকচার উইন্ডো (PW)"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Large fixed-glass panel built for uninterrupted views.",
+   "bn": "অবাধ দৃশ্যের জন্য তৈরি বড় ফিক্সড-গ্লাস প্যানেল।"
+  },
+  "detail": {
+   "en": "Picture Windows (profile E-Dp 17) are fully fixed, floor-to-ceiling capable glazing panels designed purely for view and daylight, with no opening mechanism, which means a cleaner sightline and a tighter seal against air and water infiltration.",
+   "bn": "পিকচার উইন্ডো (প্রোফাইল E-Dp 17) সম্পূর্ণ ফিক্সড, মেঝে থেকে ছাদ পর্যন্ত হতে পারে এবং শুধু দৃশ্য ও দিনের আলোর জন্য তৈরি। এতে খোলার কোনো ব্যবস্থা নেই, ফলে দৃষ্টিরেখা আরও পরিচ্ছন্ন থাকে এবং বাতাস ও পানি ঢোকার বিরুদ্ধে সিল আরও দৃঢ় হয়।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 17",
+    "Fixed glazing"
+   ],
+   "bn": [
+    "E-Dp 17",
+    "ফিক্সড গ্লাজিং"
+   ]
+  }
+ },
+ {
+  "id": "thermal-bay",
+  "cat": "thermal",
+  "order": 6,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/thermal-bay.jpg",
+  "title": {
+   "en": "Bay Window",
+   "bn": "বে উইন্ডো"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Projecting multi-panel bay for added depth and light.",
+   "bn": "অতিরিক্ত গভীরতা ও আলোর জন্য সামনে এগিয়ে থাকা মাল্টি-প্যানেল বে।"
+  },
+  "detail": {
+   "en": "Bay Windows (profile E-Dp 33) project outward from the facade in a multi-panel arrangement, adding usable interior depth, often used as a window seat or plant shelf, while bringing in light from three angles.",
+   "bn": "বে উইন্ডো (প্রোফাইল E-Dp 33) মাল্টি-প্যানেল বিন্যাসে ফ্যাসাদ থেকে বাইরের দিকে এগিয়ে থাকে, ঘরের ভেতরে ব্যবহারযোগ্য গভীরতা যোগ করে (প্রায়ই উইন্ডো সিট বা গাছ রাখার তাক হিসেবে) এবং তিন দিক থেকে আলো আনে।"
+  },
+  "tags": {
+   "en": [
+    "E-Dp 33",
+    "3-panel",
+    "Projecting"
+   ],
+   "bn": [
+    "E-Dp 33",
+    "৩-প্যানেল",
+    "সামনে প্রসারিত"
+   ]
+  }
+ },
+ {
+  "id": "thermal-arch",
+  "cat": "thermal",
+  "order": 7,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-arch.jpg",
+  "title": {
+   "en": "Arch-Eyebrow",
+   "bn": "আর্চ-আইব্রো"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Curved-head design for a softer architectural silhouette.",
+   "bn": "আরও কোমল স্থাপত্য রূপরেখার জন্য বাঁকা-শীর্ষের নকশা।"
+  },
+  "detail": {
+   "en": "The Arch-Eyebrow head (profile E-Ae-Dp-Top 8) softens a windows top edge with a gentle curve, often paired below with a standard SH, XO or XOX body, a detail used to break up long facade runs on both residential and boutique commercial buildings.",
+   "bn": "আর্চ-আইব্রো হেড (প্রোফাইল E-Ae-Dp-Top 8) জানালার উপরের কিনারায় মৃদু বক্রতা এনে তা নরম করে। এটি প্রায়ই নিচে সাধারণ SH, XO বা XOX বডির সাথে জোড়া হয় এবং আবাসিক ও বুটিক বাণিজ্যিক ভবনের লম্বা ফ্যাসাদের একঘেয়েমি ভাঙতে ব্যবহৃত হয়।"
+  },
+  "tags": {
+   "en": [
+    "E-Ae-Dp-Top 8",
+    "Custom radius"
+   ],
+   "bn": [
+    "E-Ae-Dp-Top 8",
+    "কাস্টম ব্যাসার্ধ"
+   ]
+  }
+ },
+ {
+  "id": "thermal-halfround",
+  "cat": "thermal",
+  "order": 8,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/thermal-halfround.jpg",
+  "title": {
+   "en": "Arch Half-Round",
+   "bn": "আর্চ হাফ-রাউন্ড"
+  },
+  "tag": {
+   "en": "Double Prairie Grids",
+   "bn": "ডাবল প্রেইরি গ্রিডস"
+  },
+  "short": {
+   "en": "Full-radius decorative window head for statement openings.",
+   "bn": "দৃষ্টিনন্দন খোলার জন্য পূর্ণ-ব্যাসার্ধের শোভাবর্ধক জানালা-শীর্ষ।"
+  },
+  "detail": {
+   "en": "The Half-Round arch (profile E-Ahr-Dp-Top 8) is a full semi-circular head, typically fixed, used as a standalone feature window above an entrance or stair landing, or capping a tall window assembly as a decorative statement.",
+   "bn": "হাফ-রাউন্ড আর্চ (প্রোফাইল E-Ahr-Dp-Top 8) পূর্ণ অর্ধবৃত্তাকার শীর্ষ, সাধারণত ফিক্সড। প্রবেশদ্বার বা সিঁড়ির ল্যান্ডিংয়ের উপরে স্বতন্ত্র ফিচার-জানালা হিসেবে, অথবা লম্বা জানালা সংযোজনের মাথায় শোভাবর্ধক উপাদান হিসেবে এটি ব্যবহৃত হয়।"
+  },
+  "tags": {
+   "en": [
+    "E-Ahr-Dp-Top 8",
+    "Decorative",
+    "Fixed glazing"
+   ],
+   "bn": [
+    "E-Ahr-Dp-Top 8",
+    "শোভাবর্ধক",
+    "ফিক্সড গ্লাজিং"
+   ]
+  }
+ },
+ {
+  "id": "casement-window",
+  "cat": "windoor",
+  "order": 9,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/casement-window.jpg",
+  "title": {
+   "en": "Casement Window",
+   "bn": "কেসমেন্ট উইন্ডো"
+  },
+  "tag": {
+   "en": "Insulated aluminium casement systems",
+   "bn": "ইনসুলেটেড অ্যালুমিনিয়াম কেসমেন্ট সিস্টেম"
+  },
+  "short": {
+   "en": "Side-hinged window built on thermal-break profiles to limit heat transfer and improve comfort.",
+   "bn": "তাপ স্থানান্তর কমিয়ে আরাম বাড়াতে থার্মাল-ব্রেক প্রোফাইলে তৈরি পাশে-হিঞ্জড জানালা।"
+  },
+  "detail": {
+   "en": "Our Casement Window is a side-hinged, outward-opening window built on thermal-break aluminium profiles 1.4 to 1.8mm thick. The thermal break interrupts heat transfer through the frame, which keeps interior surfaces warmer in winter and cooler in summer compared to a common profile. Available in single or double glazing depending on your climate and noise requirements.",
+   "bn": "আমাদের কেসমেন্ট উইন্ডো ১.৪ থেকে ১.৮ মিমি পুরুত্বের থার্মাল-ব্রেক অ্যালুমিনিয়াম প্রোফাইলে তৈরি, পাশে-হিঞ্জড ও বাইরের দিকে খোলে। থার্মাল ব্রেক ফ্রেমের মধ্য দিয়ে তাপ প্রবাহ আটকায়, ফলে সাধারণ প্রোফাইলের তুলনায় ঘরের ভেতরের পৃষ্ঠ শীতে উষ্ণ ও গ্রীষ্মে শীতল থাকে। আবহাওয়া ও শব্দের চাহিদা অনুযায়ী সিঙ্গেল বা ডাবল গ্লাজিং পাওয়া যায়।"
+  },
+  "tags": {
+   "en": [
+    "Double/single glazing",
+    "Thermal-break profile",
+    "1.4-1.8mm"
+   ],
+   "bn": [
+    "ডাবল/সিঙ্গেল গ্লাজিং",
+    "থার্মাল-ব্রেক প্রোফাইল",
+    "১.৪–১.৮ মিমি"
+   ]
+  }
+ },
+ {
+  "id": "sliding-window",
+  "cat": "windoor",
+  "order": 10,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/sliding-window.jpg",
+  "title": {
+   "en": "Sliding Window",
+   "bn": "স্লাইডিং উইন্ডো"
+  },
+  "tag": {
+   "en": "Space-saving horizontal glazing",
+   "bn": "জায়গা-সাশ্রয়ী অনুভূমিক গ্লাজিং"
+  },
+  "short": {
+   "en": "Smooth two or three-track sliding sash, ideal where swing clearance is limited.",
+   "bn": "মসৃণ দুই বা তিন-ট্র্যাক স্লাইডিং স্যাশ, যেখানে সুইং করার জায়গা সীমিত সেখানে আদর্শ।"
+  },
+  "detail": {
+   "en": "The Sliding Window runs on a smooth two or three-track system, so the sash slides horizontally instead of swinging outward, ideal for balconies, walkways, or any opening where you cannot spare the clearance a casement needs. Built on the same 1.4 to 1.8mm thermal-break or common profile range.",
+   "bn": "স্লাইডিং উইন্ডো মসৃণ দুই বা তিন-ট্র্যাক সিস্টেমে চলে, তাই স্যাশ বাইরের দিকে না খুলে অনুভূমিকভাবে সরে যায়। বারান্দা, হাঁটার পথ বা যেসব খোলায় কেসমেন্টের মতো জায়গা ছাড়া যায় না সেগুলোর জন্য আদর্শ। এটি ১.৪ থেকে ১.৮ মিমি থার্মাল-ব্রেক বা সাধারণ প্রোফাইলেই তৈরি।"
+  },
+  "tags": {
+   "en": [
+    "Double/single glazing",
+    "2-3 track",
+    "Space-saving"
+   ],
+   "bn": [
+    "ডাবল/সিঙ্গেল গ্লাজিং",
+    "২-৩ ট্র্যাক",
+    "জায়গা-সাশ্রয়ী"
+   ]
+  }
+ },
+ {
+  "id": "tophung",
+  "cat": "windoor",
+  "order": 11,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/tophung.jpg",
+  "title": {
+   "en": "Top-Hung Outward Opening",
+   "bn": "টপ-হাং আউটওয়ার্ড ওপেনিং"
+  },
+  "tag": {
+   "en": "Ventilation-first entrance systems",
+   "bn": "বাতাস-অগ্রাধিকার প্রবেশ সিস্টেম"
+  },
+  "short": {
+   "en": "Outward-opening sash reinforced with aluventilation strengthening for airflow control.",
+   "bn": "বাতাস নিয়ন্ত্রণের জন্য অ্যালুভেন্টিলেশন শক্তিবৃদ্ধিসহ বাইরের দিকে খোলা স্যাশ।"
+  },
+  "detail": {
+   "en": "Top-Hung Outward Opening windows hinge at the top and swing outward, which lets you ventilate a room even during light rain since the open sash acts as a small awning. The 1.4mm profile is reinforced with aluventilation strengthening for added rigidity in this opening style.",
+   "bn": "টপ-হাং আউটওয়ার্ড ওপেনিং জানালা উপরে হিঞ্জ করা এবং বাইরের দিকে খোলে; খোলা স্যাশ ছোট ছাউনির মতো কাজ করায় হালকা বৃষ্টিতেও ঘরে বাতাস চলাচল করানো যায়। ১.৪ মিমি প্রোফাইলে এই খোলার ধরনের বাড়তি দৃঢ়তার জন্য অ্যালুভেন্টিলেশন শক্তিবৃদ্ধি দেওয়া হয়।"
+  },
+  "tags": {
+   "en": [
+    "1.4mm profile",
+    "Aluventilation",
+    "Rain-safe venting"
+   ],
+   "bn": [
+    "১.৪ মিমি প্রোফাইল",
+    "অ্যালুভেন্টিলেশন",
+    "বৃষ্টি-নিরাপদ ভেন্টিং"
+   ]
+  }
+ },
+ {
+  "id": "tiltturn",
+  "cat": "windoor",
+  "order": 12,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/tiltturn.jpg",
+  "title": {
+   "en": "Tilt and Turn Window",
+   "bn": "টিল্ট অ্যান্ড টার্ন উইন্ডো"
+  },
+  "tag": {
+   "en": "Dual-mode opening hardware",
+   "bn": "দ্বৈত-মোড খোলার হার্ডওয়্যার"
+  },
+  "short": {
+   "en": "Side-hung and bottom-hung opening styles connected in one frame for flexible ventilation.",
+   "bn": "নমনীয় বাতাস চলাচলের জন্য একই ফ্রেমে পাশে-ঝোলানো ও নিচে-ঝোলানো খোলার ধরন।"
+  },
+  "detail": {
+   "en": "Tilt and Turn windows combine two opening styles in one sash: tilt inward from the top for secure, gentle ventilation, or turn fully inward on side hinges for cleaning and full airflow. The dual mechanism is built into a single 1.4 to 1.8mm frame for flexible, climate-responsive control.",
+   "bn": "টিল্ট অ্যান্ড টার্ন উইন্ডো একই স্যাশে দুই ধরনের খোলা যুক্ত করে: নিরাপদ ও মৃদু বাতাসের জন্য উপর থেকে ভেতরের দিকে কাত হয়, অথবা পরিষ্কার ও পূর্ণ বাতাসের জন্য পাশের হিঞ্জে পুরোপুরি ভেতরে ঘোরে। দ্বৈত ব্যবস্থাটি ১.৪ থেকে ১.৮ মিমি একটি ফ্রেমে বসানো, যা জলবায়ু অনুযায়ী নমনীয় নিয়ন্ত্রণ দেয়।"
+  },
+  "tags": {
+   "en": [
+    "1.4-1.8mm",
+    "Dual opening",
+    "Easy-clean mode"
+   ],
+   "bn": [
+    "১.৪–১.৮ মিমি",
+    "দ্বৈত খোলা",
+    "সহজ-পরিষ্কার মোড"
+   ]
+  }
+ },
+ {
+  "id": "casement-manual",
+  "cat": "windoor",
+  "order": 13,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/casement-manual.jpg",
+  "title": {
+   "en": "Casement with Manual Opener",
+   "bn": "ম্যানুয়াল ওপেনারসহ কেসমেন্ট"
+  },
+  "tag": {
+   "en": "Fly-screen ready casement",
+   "bn": "ফ্লাই-স্ক্রিন উপযোগী কেসমেন্ট"
+  },
+  "short": {
+   "en": "Manual opener casement with a fixed fly screen option for insect-free airflow.",
+   "bn": "পোকামুক্ত বাতাস চলাচলের জন্য ফিক্সড ফ্লাই স্ক্রিনের সুবিধাসহ ম্যানুয়াল ওপেনার কেসমেন্ট।"
+  },
+  "detail": {
+   "en": "This Casement variant adds a manual opener arm for controlled, geared opening, plus an available fixed fly screen, so you get insect-free ventilation without a separate screen door. Built on a 1.4mm profile, it suits kitchens, bathrooms and other rooms where the window stays open often.",
+   "bn": "এই কেসমেন্ট ভ্যারিয়েন্টে নিয়ন্ত্রিত ও গিয়ারযুক্তভাবে খোলার জন্য ম্যানুয়াল ওপেনার আর্ম এবং ঐচ্ছিক ফিক্সড ফ্লাই স্ক্রিন আছে, ফলে আলাদা স্ক্রিন দরজা ছাড়াই পোকামুক্ত বাতাস পাওয়া যায়। ১.৪ মিমি প্রোফাইলে তৈরি এটি রান্নাঘর, বাথরুমসহ যেসব ঘরে জানালা প্রায়ই খোলা থাকে সেগুলোর জন্য উপযোগী।"
+  },
+  "tags": {
+   "en": [
+    "1.4mm profile",
+    "Fly screen available",
+    "Manual opener"
+   ],
+   "bn": [
+    "১.৪ মিমি প্রোফাইল",
+    "ফ্লাই স্ক্রিন পাওয়া যায়",
+    "ম্যানুয়াল ওপেনার"
+   ]
+  }
+ },
+ {
+  "id": "sliding-door",
+  "cat": "windoor",
+  "order": 14,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/sliding-door.jpg",
+  "title": {
+   "en": "Sliding Door",
+   "bn": "স্লাইডিং ডোর"
+  },
+  "tag": {
+   "en": "Large multi-sash entries",
+   "bn": "বড় মাল্টি-স্যাশ প্রবেশপথ"
+  },
+  "short": {
+   "en": "Smooth-running sliding door built for wide openings with large multi-sash configurations.",
+   "bn": "বড় মাল্টি-স্যাশ কনফিগারেশনসহ চওড়া খোলার জন্য মসৃণভাবে চলা স্লাইডিং দরজা।"
+  },
+  "detail": {
+   "en": "The Sliding Door is built on a 2.0mm profile with large multi-sash availability, so wide openings such as patios, balconies and shopfronts can be fitted without multiple narrow doors. Smooth-running rollers keep the door easy to operate even at larger panel sizes.",
+   "bn": "স্লাইডিং ডোর ২.০ মিমি প্রোফাইলে তৈরি এবং বড় মাল্টি-স্যাশে পাওয়া যায়, ফলে প্যাটিও, বারান্দা ও শপফ্রন্টের মতো চওড়া খোলায় একাধিক সরু দরজা ছাড়াই লাগানো যায়। মসৃণ রোলার বড় প্যানেলেও দরজা সহজে চালাতে সাহায্য করে।"
+  },
+  "tags": {
+   "en": [
+    "2.0mm profile",
+    "Multi-sash",
+    "Smooth-roll hardware"
+   ],
+   "bn": [
+    "২.০ মিমি প্রোফাইল",
+    "মাল্টি-স্যাশ",
+    "মসৃণ-রোল হার্ডওয়্যার"
+   ]
+  }
+ },
+ {
+  "id": "folding-door",
+  "cat": "windoor",
+  "order": 15,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/folding-door.jpg",
+  "title": {
+   "en": "Folding Door",
+   "bn": "ফোল্ডিং ডোর"
+  },
+  "tag": {
+   "en": "Medium and bi-folding systems",
+   "bn": "মিডিয়াম ও বাই-ফোল্ডিং সিস্টেম"
+  },
+  "short": {
+   "en": "Mid-slim folding door with a 45-60mm frame that opens up the view while staying structurally sound.",
+   "bn": "৪৫–৬০ মিমি ফ্রেমের মিড-স্লিম ফোল্ডিং দরজা, যা কাঠামোগত দৃঢ়তা বজায় রেখে দৃশ্য উন্মুক্ত করে।"
+  },
+  "detail": {
+   "en": "Our Folding Door follows an appropriate-narrowness philosophy: a 45 to 60mm frame width that is narrow enough to maximise the view, without chasing extreme narrowness at the cost of long-term stability. The optimised hinge system lets multiple panels fold smoothly in configurations from 2+0 up to 5+1, and is popular for connecting living rooms to balconies or gardens.",
+   "bn": "আমাদের ফোল্ডিং ডোর \"যথাযথ সরুতা\" দর্শন মেনে চলে: ৪৫ থেকে ৬০ মিমি ফ্রেম, যা দৃশ্য সর্বোচ্চ উন্মুক্ত করার মতো সরু, কিন্তু দীর্ঘমেয়াদি স্থায়িত্বের বিনিময়ে চরম সরুতার পেছনে ছোটে না। অপ্টিমাইজড হিঞ্জ সিস্টেমে ২+০ থেকে ৫+১ পর্যন্ত বিভিন্ন কনফিগারেশনে প্যানেলগুলো মসৃণভাবে ভাঁজ হয়। লিভিং রুমকে বারান্দা বা বাগানের সাথে যুক্ত করতে এটি জনপ্রিয়।"
+  },
+  "tags": {
+   "en": [
+    "2.0mm profile",
+    "2+0 to 5+1 configs",
+    "Precision hinges"
+   ],
+   "bn": [
+    "২.০ মিমি প্রোফাইল",
+    "২+০ থেকে ৫+১ কনফিগ",
+    "নিখুঁত হিঞ্জ"
+   ]
+  }
+ },
+ {
+  "id": "casement-door",
+  "cat": "windoor",
+  "order": 16,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/casement-door.jpg",
+  "title": {
+   "en": "Casement Door",
+   "bn": "কেসমেন্ট দরজা"
+  },
+  "tag": {
+   "en": "Hinged entry systems",
+   "bn": "হিঞ্জড এন্ট্রি সিস্টেম"
+  },
+  "short": {
+   "en": "Double/single-glazed hinged door profile for main and secondary entrances.",
+   "bn": "প্রধান ও দ্বিতীয় প্রবেশপথের জন্য ডাবল/সিঙ্গেল গ্লাসযুক্ত হিঞ্জড দরজার প্রোফাইল।"
+  },
+  "detail": {
+   "en": "The Casement Door is a hinged, swing-opening door on a 2.0mm profile, available in double or single glazing. It is built for main and secondary entrances where a traditional swing door is preferred over a sliding or folding system.",
+   "bn": "কেসমেন্ট ডোর হলো ২.০ মিমি প্রোফাইলের হিঞ্জড, সুইং-ওপেনিং দরজা, যা ডাবল বা সিঙ্গেল গ্লাজিংয়ে পাওয়া যায়। স্লাইডিং বা ফোল্ডিংয়ের বদলে প্রচলিত সুইং দরজা পছন্দ হলে প্রধান ও দ্বিতীয় প্রবেশপথের জন্য এটি উপযুক্ত।"
+  },
+  "tags": {
+   "en": [
+    "2.0mm profile",
+    "Double/single glazing",
+    "Swing-opening"
+   ],
+   "bn": [
+    "২.০ মিমি প্রোফাইল",
+    "ডাবল/সিঙ্গেল গ্লাজিং",
+    "সুইং-ওপেনিং"
+   ]
+  }
+ },
+ {
+  "id": "spring-door",
+  "cat": "windoor",
+  "order": 17,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/spring-door.jpg",
+  "title": {
+   "en": "Spring Door",
+   "bn": "স্প্রিং ডোর"
+  },
+  "tag": {
+   "en": "Self-closing entry systems",
+   "bn": "সেলফ-ক্লোজিং এন্ট্রি সিস্টেম"
+  },
+  "short": {
+   "en": "Thermal-break or common alloy profile door suited to high-traffic entries.",
+   "bn": "ব্যস্ত প্রবেশপথের উপযোগী থার্মাল-ব্রেক বা সাধারণ অ্যালয় প্রোফাইলের দরজা।"
+  },
+  "detail": {
+   "en": "Spring Doors use a self-closing hinge mechanism, built on a thermal-break or common alloy profile at 2.0mm, well suited to high-traffic entries like shop fronts or office lobbies where the door needs to close reliably behind each person without manual effort.",
+   "bn": "স্প্রিং ডোরে সেলফ-ক্লোজিং হিঞ্জ ব্যবস্থা থাকে এবং এটি ২.০ মিমি থার্মাল-ব্রেক বা সাধারণ অ্যালয় প্রোফাইলে তৈরি। দোকানের সামনে বা অফিস লবির মতো ব্যস্ত প্রবেশপথের জন্য উপযুক্ত, যেখানে প্রতিবার কেউ ঢুকলে হাত না লাগিয়েই দরজা নির্ভরযোগ্যভাবে বন্ধ হওয়া দরকার।"
+  },
+  "tags": {
+   "en": [
+    "2.0mm profile",
+    "Thermal-break or alu",
+    "Self-closing"
+   ],
+   "bn": [
+    "২.০ মিমি প্রোফাইল",
+    "থার্মাল-ব্রেক বা অ্যালুমিনিয়াম",
+    "সেলফ-ক্লোজিং"
+   ]
+  }
+ },
+ {
+  "id": "curtainwall-detail",
+  "cat": "structural",
+  "order": 18,
+  "published": true,
+  "featured": true,
+  "onHome": true,
+  "image": "images/products/curtainwall-detail.jpg",
+  "title": {
+   "en": "Glass Curtain Wall",
+   "bn": "গ্লাস কার্টেন ওয়াল"
+  },
+  "tag": {
+   "en": "Modern facade solution",
+   "bn": "আধুনিক ফ্যাসাদ সলিউশন"
+  },
+  "short": {
+   "en": "High strength, high performance curtain wall system engineered for commercial facades.",
+   "bn": "বাণিজ্যিক ফ্যাসাদের জন্য তৈরি উচ্চ-শক্তি, উচ্চ-কার্যক্ষম কার্টেন ওয়াল সিস্টেম।"
+  },
+  "detail": {
+   "en": "Our Glass Curtain Wall system is a non-structural outer skin that hangs off the buildings frame, the aluminium mullion-and-transom grid carries the glass load back to the slab edge rather than to the glazing itself. Engineered for wind load, water tightness and thermal performance, it is our go-to recommendation for commercial towers, offices and high-rise facades across Dhaka.",
+   "bn": "আমাদের গ্লাস কার্টেন ওয়াল ভবনের কাঠামো থেকে ঝুলে থাকা একটি নন-স্ট্রাকচারাল বাইরের আবরণ; অ্যালুমিনিয়াম মালিয়ন-ট্রান্সম গ্রিড গ্লাসের ভার গ্লাজিংয়ে না দিয়ে স্ল্যাবের কিনারায় পৌঁছে দেয়। বাতাসের চাপ, পানিরোধ ও তাপীয় কার্যক্ষমতার জন্য প্রকৌশলিত এই সিস্টেম ঢাকার বাণিজ্যিক টাওয়ার, অফিস ও হাই-রাইজ ফ্যাসাদে আমাদের প্রধান সুপারিশ।"
+  },
+  "tags": {
+   "en": [
+    "Structural glazing",
+    "High-rise rated",
+    "Wind & water tested"
+   ],
+   "bn": [
+    "স্ট্রাকচারাল গ্লাজিং",
+    "হাই-রাইজ উপযোগী",
+    "বাতাস ও পানি পরীক্ষিত"
+   ]
+  }
+ },
+ {
+  "id": "visible-curtainwall",
+  "cat": "structural",
+  "order": 19,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/visible-curtainwall.jpg",
+  "title": {
+   "en": "Visible Curtain Wall",
+   "bn": "ভিজিবল কার্টেন ওয়াল"
+  },
+  "tag": {
+   "en": "Stylish, transparent facades",
+   "bn": "স্টাইলিশ, স্বচ্ছ ফ্যাসাদ"
+  },
+  "short": {
+   "en": "Exposed-frame curtain wall with a modern, transparent architectural look.",
+   "bn": "আধুনিক, স্বচ্ছ স্থাপত্য রূপের এক্সপোজড-ফ্রেম কার্টেন ওয়াল।"
+  },
+  "detail": {
+   "en": "The Visible, exposed-frame Curtain Wall keeps the aluminium mullion grid visible on the buildings face, giving a crisp, modern grid pattern rather than a seamless glass skin. It is a popular choice when the architectural brief calls for a visibly structured, transparent facade rather than a flush glazed look.",
+   "bn": "ভিজিবল বা এক্সপোজড-ফ্রেম কার্টেন ওয়ালে অ্যালুমিনিয়াম মালিয়ন গ্রিড ভবনের সামনে দৃশ্যমান থাকে, যা নিরবচ্ছিন্ন গ্লাস আবরণের বদলে পরিচ্ছন্ন, আধুনিক গ্রিড নকশা দেয়। স্থাপত্যের চাহিদা যখন ফ্লাশ গ্লাজড রূপের বদলে দৃশ্যমান কাঠামোযুক্ত স্বচ্ছ ফ্যাসাদ, তখন এটি জনপ্রিয় পছন্দ।"
+  },
+  "tags": {
+   "en": [
+    "Exposed frame",
+    "Transparent design",
+    "Commercial & residential"
+   ],
+   "bn": [
+    "এক্সপোজড ফ্রেম",
+    "স্বচ্ছ নকশা",
+    "বাণিজ্যিক ও আবাসিক"
+   ]
+  }
+ },
+ {
+  "id": "office-partition",
+  "cat": "structural",
+  "order": 20,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/office-partition.jpg",
+  "title": {
+   "en": "Office Glass Partitions",
+   "bn": "অফিস গ্লাস পার্টিশন"
+  },
+  "tag": {
+   "en": "Acoustic interior glazing",
+   "bn": "অ্যাকুস্টিক ইন্টেরিয়র গ্লাজিং"
+  },
+  "short": {
+   "en": "Clean-line glass partitioning for modern, light-filled office interiors.",
+   "bn": "আধুনিক, আলোকোজ্জ্বল অফিস ইন্টেরিয়রের জন্য পরিচ্ছন্ন-রেখার গ্লাস পার্টিশন।"
+  },
+  "detail": {
+   "en": "Office Glass Partitions bring daylight deep into a floor plate while still dividing it into private or semi-private rooms. Our acoustic-rated glazing option cuts sound transfer between meeting rooms and open-plan areas, and panels are modular so layouts can be reconfigured as teams grow.",
+   "bn": "অফিস গ্লাস পার্টিশন ফ্লোরের গভীরে দিনের আলো পৌঁছে দেয় এবং একই সাথে জায়গাটিকে ব্যক্তিগত বা আধা-ব্যক্তিগত কক্ষে ভাগ করে। আমাদের অ্যাকুস্টিক-রেটেড গ্লাজিং মিটিং রুম ও খোলা কর্মক্ষেত্রের মধ্যে শব্দ চলাচল কমায়, আর প্যানেল মডুলার হওয়ায় টিম বড় হলে বিন্যাস বদলানো যায়।"
+  },
+  "tags": {
+   "en": [
+    "Acoustic rated",
+    "Modular panels",
+    "Light-filled interiors"
+   ],
+   "bn": [
+    "অ্যাকুস্টিক রেটেড",
+    "মডুলার প্যানেল",
+    "আলোকোজ্জ্বল ইন্টেরিয়র"
+   ]
+  }
+ },
+ {
+  "id": "railing",
+  "cat": "structural",
+  "order": 21,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/railing.jpg",
+  "title": {
+   "en": "Aluminium Railing",
+   "bn": "অ্যালুমিনিয়াম রেলিং"
+  },
+  "tag": {
+   "en": "Balustrade and railing systems",
+   "bn": "ব্যালাস্ট্রেড ও রেলিং সিস্টেম"
+  },
+  "short": {
+   "en": "Glass balustrade and railing systems finished to drawing-specified colour and style.",
+   "bn": "ড্রয়িং-নির্দিষ্ট রঙ ও স্টাইলে ফিনিশ করা গ্লাস ব্যালাস্ট্রেড ও রেলিং সিস্টেম।"
+  },
+  "detail": {
+   "en": "Our Aluminium Railing and glass balustrade systems are finished to whatever colour and style your drawings specify, frameless glass, top-rail glass, or aluminium baluster styles. Common on balconies, rooftop terraces and stairwells where an unobstructed view matters as much as the safety barrier itself.",
+   "bn": "আমাদের অ্যালুমিনিয়াম রেলিং ও গ্লাস ব্যালাস্ট্রেড আপনার ড্রয়িংয়ে নির্দিষ্ট রঙ ও স্টাইলে ফিনিশ করা হয়, যেমন ফ্রেমলেস গ্লাস, টপ-রেইল গ্লাস বা অ্যালুমিনিয়াম ব্যালাস্টার। বারান্দা, ছাদের টেরেস ও সিঁড়িঘরে এটি বহুল ব্যবহৃত, যেখানে নিরাপত্তা বেষ্টনীর মতোই অবাধ দৃশ্যও গুরুত্বপূর্ণ।"
+  },
+  "tags": {
+   "en": [
+    "Color/style as per drawing",
+    "Glass or aluminium",
+    "Balcony & terrace rated"
+   ],
+   "bn": [
+    "ড্রয়িং অনুযায়ী রঙ/স্টাইল",
+    "গ্লাস বা অ্যালুমিনিয়াম",
+    "বারান্দা ও ছাদের উপযোগী"
+   ]
+  }
+ },
+ {
+  "id": "louver",
+  "cat": "structural",
+  "order": 22,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/louver.jpg",
+  "title": {
+   "en": "Louver System",
+   "bn": "লুভার সিস্টেম"
+  },
+  "tag": {
+   "en": "Adjustable light and ventilation",
+   "bn": "নিয়ন্ত্রণযোগ্য আলো ও বাতাস চলাচল"
+  },
+  "short": {
+   "en": "Adjustable louvers for better light and ventilation control across facades.",
+   "bn": "ফ্যাসাদে আলো ও বাতাস নিয়ন্ত্রণের জন্য সমন্বয়যোগ্য লুভার।"
+  },
+  "detail": {
+   "en": "Louver Systems use adjustable horizontal blades to control how much light, air and rain enters a space, useful on plant-room screens, parking facade covers, and sun-shading applications where you want airflow without direct sun or weather exposure.",
+   "bn": "লুভার সিস্টেম সমন্বয়যোগ্য অনুভূমিক ব্লেড দিয়ে ঘরে কতটা আলো, বাতাস ও বৃষ্টি ঢুকবে তা নিয়ন্ত্রণ করে। প্ল্যান্ট-রুম স্ক্রিন, পার্কিং ফ্যাসাদের আচ্ছাদন ও সান-শেডিংয়ে এটি কাজে লাগে, যেখানে সরাসরি রোদ বা আবহাওয়ার ধাক্কা ছাড়াই বাতাস চলাচল দরকার।"
+  },
+  "tags": {
+   "en": [
+    "Adjustable blades",
+    "Light & air control",
+    "Weather screening"
+   ],
+   "bn": [
+    "সমন্বয়যোগ্য ব্লেড",
+    "আলো ও বাতাস নিয়ন্ত্রণ",
+    "আবহাওয়া আড়াল"
+   ]
+  }
+ },
+ {
+  "id": "kitchen",
+  "cat": "interior",
+  "order": 23,
+  "published": true,
+  "featured": true,
+  "onHome": false,
+  "image": "images/products/kitchen.jpg",
+  "title": {
+   "en": "Signature Kitchen Cabinets",
+   "bn": "সিগনেচার কিচেন ক্যাবিনেট"
+  },
+  "tag": {
+   "en": "Quartz and custom cabinetry",
+   "bn": "কোয়ার্টজ ও কাস্টম ক্যাবিনেট্রি"
+  },
+  "short": {
+   "en": "Quartz countertops with moisture-resistant, custom-built cabinetry for modern kitchens.",
+   "bn": "আধুনিক রান্নাঘরের জন্য কোয়ার্টজ কাউন্টারটপসহ আর্দ্রতা-প্রতিরোধী কাস্টম ক্যাবিনেট।"
+  },
+  "detail": {
+   "en": "Our Signature Kitchen Cabinets pair quartz countertops with moisture-resistant, custom-built cabinetry, designed around your layout rather than a fixed module size. Finishes are built to handle daily kitchen moisture and heat while keeping a clean, modern look.",
+   "bn": "আমাদের সিগনেচার কিচেন ক্যাবিনেটে কোয়ার্টজ কাউন্টারটপের সাথে আর্দ্রতা-প্রতিরোধী কাস্টম ক্যাবিনেট থাকে, যা নির্দিষ্ট মাপের মডিউলের বদলে আপনার রান্নাঘরের নকশা অনুযায়ী তৈরি। ফিনিশগুলো প্রতিদিনের আর্দ্রতা ও তাপ সহ্য করে পরিচ্ছন্ন, আধুনিক রূপ ধরে রাখে।"
+  },
+  "tags": {
+   "en": [
+    "Quartz countertops",
+    "Custom-built",
+    "Moisture-resistant"
+   ],
+   "bn": [
+    "কোয়ার্টজ কাউন্টারটপ",
+    "কাস্টম-নির্মিত",
+    "আর্দ্রতা-প্রতিরোধী"
+   ]
+  }
+ },
+ {
+  "id": "living",
+  "cat": "interior",
+  "order": 24,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/living.jpg",
+  "title": {
+   "en": "Family Living Systems",
+   "bn": "ফ্যামিলি লিভিং সিস্টেম"
+  },
+  "tag": {
+   "en": "Built-in comfort, inspired by nature",
+   "bn": "প্রকৃতি-অনুপ্রাণিত বিল্ট-ইন আরাম"
+  },
+  "short": {
+   "en": "Custom built-in shelving paired with a cozy, naturally-lit living layout.",
+   "bn": "আরামদায়ক, প্রাকৃতিক আলোযুক্ত লিভিং বিন্যাসের সাথে কাস্টম বিল্ট-ইন শেলভিং।"
+  },
+  "detail": {
+   "en": "Family Living Systems combine custom built-in shelving with a naturally-lit layout plan, skylights and large window placement are considered alongside the cabinetry so the finished room feels open rather than boxed in by storage.",
+   "bn": "ফ্যামিলি লিভিং সিস্টেম কাস্টম বিল্ট-ইন শেলভিংয়ের সাথে প্রাকৃতিক আলোর বিন্যাস মিলিয়ে তৈরি। ক্যাবিনেট্রির পাশাপাশি স্কাইলাইট ও বড় জানালার অবস্থান ভাবা হয়, যাতে সম্পূর্ণ ঘরটি স্টোরেজে আটকে না থেকে খোলামেলা মনে হয়।"
+  },
+  "tags": {
+   "en": [
+    "Built-in shelving",
+    "Skylight integration",
+    "Natural materials"
+   ],
+   "bn": [
+    "বিল্ট-ইন শেলভিং",
+    "স্কাইলাইট সংযোজন",
+    "প্রাকৃতিক উপকরণ"
+   ]
+  }
+ },
+ {
+  "id": "office",
+  "cat": "interior",
+  "order": 25,
+  "published": true,
+  "featured": false,
+  "onHome": false,
+  "image": "images/products/office.jpg",
+  "title": {
+   "en": "Modern Office Environments",
+   "bn": "আধুনিক অফিস পরিবেশ"
+  },
+  "tag": {
+   "en": "Collaborative workspace design",
+   "bn": "সহযোগিতামূলক কর্মস্থল ডিজাইন"
+  },
+  "short": {
+   "en": "Open, biophilic office layouts with acoustic breakout lounges for focused and social work.",
+   "bn": "মনোযোগী ও সামাজিক কাজের জন্য অ্যাকুস্টিক ব্রেকআউট লাউঞ্জসহ খোলা, বায়োফিলিক অফিস বিন্যাস।"
+  },
+  "detail": {
+   "en": "Modern Office Environments we fit out combine open, biophilic layouts, natural light, greenery, timber accents, with acoustic breakout lounges, giving teams both focused desk space and a quieter zone to step away to, without needing a full separate floor.",
+   "bn": "আমরা যে আধুনিক অফিস পরিবেশ সাজাই তাতে খোলা বায়োফিলিক বিন্যাস, প্রাকৃতিক আলো, সবুজায়ন ও কাঠের অ্যাকসেন্টের সাথে অ্যাকুস্টিক ব্রেকআউট লাউঞ্জ থাকে। এতে টিম মনোযোগী ডেস্ক-স্পেস এবং আলাদা পুরো ফ্লোর ছাড়াই সরে যাওয়ার মতো শান্ত জায়গা দুটোই পায়।"
+  },
+  "tags": {
+   "en": [
+    "Biophilic design",
+    "Breakout zones",
+    "Acoustic comfort"
+   ],
+   "bn": [
+    "বায়োফিলিক ডিজাইন",
+    "ব্রেকআউট জোন",
+    "অ্যাকুস্টিক আরাম"
+   ]
+  }
+ }
+]
