@@ -16,7 +16,7 @@ const ICON = {
   edit: 'M12 20h9M16.5 3.5a2.1 2.1 0 113 3L7 19l-4 1 1-4z', trash: 'M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6', up: 'M12 19V5M5 12l7-7 7 7', down: 'M12 5v14M19 12l-7 7-7-7',
   ext: 'M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5', dl: 'M12 4v12M6 11l6 6 6-6M4 20h16', phone: 'M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2',
   mail: 'M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1zM3 7l9 6 9-6', chat: 'M21 12a8 8 0 01-11.7 7L3 21l2-5.5A8 8 0 1121 12z',
-  check: 'M5 12l5 5 9-10', x: 'M6 6l12 12M18 6L6 18', menu: 'M4 6h16M4 12h16M4 18h16', cloud: 'M7 18a5 5 0 110-10 6 6 0 0111.5 1.5A4 4 0 0118 18zM12 11v6M9 14l3-3 3 3', shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z',
+  check: 'M5 12l5 5 9-10', eyeoff: 'M3 3l18 18M10.6 10.6a3 3 0 004.2 4.2M9.9 5.1A10 10 0 0112 5c6 0 10 7 10 7a17 17 0 01-3.2 4M6.1 6.1A17 17 0 002 12s4 7 10 7a9.7 9.7 0 004-.9', x: 'M6 6l12 12M18 6L6 18', menu: 'M4 6h16M4 12h16M4 18h16', cloud: 'M7 18a5 5 0 110-10 6 6 0 0111.5 1.5A4 4 0 0118 18zM12 11v6M9 14l3-3 3 3', shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z',
   star: 'M12 3l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.8 6.2 20.9l1.1-6.5L2.6 9.8l6.5-.9z', eye: 'M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zM12 15a3 3 0 100-6 3 3 0 000 6z', clock: 'M12 7v5l3 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
 };
 const ic = (n, cls = '') => raw(`<svg class="i ${cls}" viewBox="0 0 24 24"><path d="${ICON[n]}"/></svg>`);
@@ -27,6 +27,14 @@ const fmt = iso => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleS
 const ago = iso => { const s = (Date.now() - new Date(iso)) / 1000; if (isNaN(s)) return ''; if (s < 60) return 'just now'; if (s < 3600) return Math.floor(s / 60) + ' min ago'; if (s < 86400) return Math.floor(s / 3600) + ' h ago'; if (s < 604800) return Math.floor(s / 86400) + ' d ago'; return fmt(iso).slice(0, 11); };
 const waLink = p => { let d = String(p || '').replace(/\D/g, ''); if (d.startsWith('0')) d = '880' + d.slice(1); return 'https://wa.me/' + d; };
 const homeSet = (list, n) => new Set(list.filter(p => p.published !== false && p.onHome).sort((x, y) => x.order - y.order).slice(-n).map(p => p.id));
+const pwField = (id, ac) => h`<div class="pw"><input id="${id}" type="password" autocomplete="${ac}" required><button type="button" class="pw-eye" data-eye="${id}" aria-label="Show password" aria-pressed="false" title="Show password">${ic('eye')}</button></div>`;
+document.addEventListener('mousedown', e => { if (e.target.closest('[data-eye]')) e.preventDefault(); });
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-eye]'); if (!b) return;
+  const i = document.getElementById(b.dataset.eye), show = i.type === 'password';
+  i.type = show ? 'text' : 'password'; b.innerHTML = ic(show ? 'eyeoff' : 'eye').s;
+  b.setAttribute('aria-pressed', show); b.setAttribute('aria-label', show ? 'Hide password' : 'Show password'); b.title = show ? 'Hide password' : 'Show password';
+});
 const imgSrc = p => '/' + String(p || '').replace(/^\/+/, '');
 
 function toast(msg, type = 'ok') {
@@ -70,7 +78,7 @@ function renderLogin(msg) {
   <div class="login-form"><form id="lf" autocomplete="on"><h2>Welcome back</h2><p class="sub">Sign in to the admin panel.</p>
     ${msg ? h`<div class="err">${msg}</div>` : ''}
     <div class="field"><label for="u">Username</label><input id="u" type="text" autocomplete="username" required autofocus></div>
-    <div class="field"><label for="p">Password</label><input id="p" type="password" autocomplete="current-password" required></div>
+    <div class="field"><label for="p">Password</label>${pwField('p', 'current-password')}</div>
     <button class="btn primary" style="width:100%;padding:12px" id="lb">Sign in</button></form></div></div>`.s;
   $('#lf').onsubmit = async e => {
     e.preventDefault(); const b = $('#lb'); b.disabled = true; b.textContent = 'Signing in…';
@@ -318,8 +326,8 @@ async function settings() {
   const yes = (ok, t, f) => ok ? h`<span class="badge live"><i class="dot"></i>${t}</span>` : h`<span class="badge hidden">${f}</span>`;
   $('#view').innerHTML = h`<div class="page-head"><div><h2>Settings</h2><p>Account security, alerts and backups.</p></div></div><div class="set">
   <div class="card pad"><h3>Change password</h3><p class="muted small" style="margin-bottom:16px">Signed in as <b>${s.user}</b>. Use at least 8 characters.</p><form id="pw">
-    <div class="field"><label>Current password</label><input type="password" id="cp" autocomplete="current-password" required></div><div class="field"><label>New password</label><input type="password" id="np" autocomplete="new-password" minlength="8" required></div>
-    <div class="field"><label>Repeat new password</label><input type="password" id="rp" autocomplete="new-password" required></div><button class="btn primary">Update password</button></form></div>
+    <div class="field"><label>Current password</label>${pwField('cp', 'current-password')}</div><div class="field"><label>New password</label>${pwField('np', 'new-password')}<span class="hint">At least 8 characters.</span></div>
+    <div class="field"><label>Repeat new password</label>${pwField('rp', 'new-password')}</div><button class="btn primary">Update password</button></form></div>
   <div class="card pad"><h3>Inquiry alerts</h3><p class="muted small" style="margin-bottom:8px">How you are told about new requests. Change these in the server <code>.env</code> file.</p>
     <div class="status-row"><span>Saved in this panel</span>${yes(true, 'Always on', '')}</div>
     <div class="status-row"><span>WhatsApp alert</span>${yes(s.whatsapp, 'Active', 'Not set up')}</div>

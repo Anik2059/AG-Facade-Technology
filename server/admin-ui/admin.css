@@ -158,3 +158,11 @@ tbody tr:last-child td{border:0}tbody tr.click{cursor:pointer}tbody tr.click:hov
 /* small screens: keep the top bar inside the viewport */
 .top h1{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(max-width:700px){.top>a.btn{display:none}.top{gap:10px}.page-head h2{font-size:1.25rem}.search{min-width:0;flex:1 1 100%}.drawer header{padding:16px}.drawer .bd{padding:18px 16px}}
+
+/* show / hide password */
+.pw{position:relative}.pw input{padding-right:48px}
+.pw-eye{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;background:none;border-radius:10px;color:var(--mute);display:grid;place-items:center;transition:.15s}
+.pw-eye:hover{background:#E8EEF7;color:var(--navy)}.pw-eye[aria-pressed="true"]{color:var(--cyan2)}.pw-eye:focus-visible{outline:2px solid var(--cyan2)}
+input::-ms-reveal,input::-ms-clear{display:none}
+
+.logo-chip{align-self:flex-start}
